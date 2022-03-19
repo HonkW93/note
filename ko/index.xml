@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 14 Mar 2022 22:44:53 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Mar 2022 19:33:02 +0800</lastBuildDate>
     
         <atom:link href="http://example.org/ko/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,17 +15,79 @@
     
       
       <item>
-        <title>vcs</title>
-        <link>http://example.org/ko/en/docs/eda/vcs/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        <title>bash</title>
+        <link>http://example.org/ko/en/docs/linux/bash/</link>
+        <pubDate>Sat, 19 Mar 2022 19:33:02 +0800</pubDate>
         
-        <guid>http://example.org/ko/en/docs/eda/vcs/</guid>
-        <description>1 测试标题
-2 2.1 置位</description>
+        <guid>http://example.org/ko/en/docs/linux/bash/</guid>
+        <description></description>
       </item>
       
       <item>
-        <title>verdi</title>
+        <title>ubuntu安装EDA</title>
+        <link>http://example.org/ko/en/docs/eda/ubuntu/</link>
+        <pubDate>Mon, 14 Mar 2022 23:21:10 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/eda/ubuntu/</guid>
+        <description>Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章：
+搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。
+搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 
+lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_baidu_34971492的博客-CSDN博客
+ 安装lsb-core
+ 1  apt-get install lsb-core   Can&amp;rsquo;t remove statfile /usr/tmp/.flexlm/lmgrdl.1999: errno No such file or directory 安装Synopsys DC的license时的问题，请高手解答！ - EDA资源使用讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -
+ 自己新建一个/usr/tmp/.flexlm
+ (lmgrd) Failed to open the TCP port number in the license. (lmgrd) Failed to open the TCP port number in the license.</description>
+      </item>
+      
+      <item>
+        <title>vim使用</title>
+        <link>http://example.org/ko/en/docs/linux/vim/gvim/</link>
+        <pubDate>Sun, 25 Jul 2021 15:29:28 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/vim/gvim/</guid>
+        <description>记录Vim相关的一些插件用法及Vim使用中的问题作为参考文档。 插件（Plugin） vim-plug  vim插件管理器
+junegunn/vim-plug: Minimalist Vim Plugin Manager
+ 一个Vim插件管理器，利用异步并行可以快速地安装、更新和卸载插件。
+  安装
+:PlugInstall
+  卸载
+:PlugClean
+  升级
+:PlugUpdate
+  列表
+:PlugStatus
+  加速源：
+VIM-Plug安装插件时，频繁更新失败，或报端口443被拒绝 - 知乎 (zhihu.com)
+Just a moment&amp;hellip; (fastgit.org)
+GitHub: Where the world builds software · GitHub (gitfast.tk)
+nerdtree  树形文件管理器
+preservim/nerdtree: A tree explorer plugin for vim.
+   呼出
+:NERDTree
+  vim-visual-star-search  可视模式下通过*搜索
+nelstrom/vim-visual-star-search: Start a * or # search from a visual block (github.</description>
+      </item>
+      
+      <item>
+        <title>learn-vimscript-the-hard-way</title>
+        <link>http://example.org/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</link>
+        <pubDate>Sat, 19 Mar 2022 18:05:44 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>regex</title>
+        <link>http://example.org/ko/en/docs/linux/regex/</link>
+        <pubDate>Mon, 14 Mar 2022 23:56:00 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/regex/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>verdi使用</title>
         <link>http://example.org/ko/en/docs/eda/verdi/</link>
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
@@ -34,12 +96,41 @@
       </item>
       
       <item>
+        <title>sed</title>
+        <link>http://example.org/ko/en/docs/linux/sed/</link>
+        <pubDate>Mon, 14 Mar 2022 23:45:55 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/sed/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>vcs使用</title>
+        <link>http://example.org/ko/en/docs/eda/vcs/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/eda/vcs/</guid>
+        <description>1 2 2.1 </description>
+      </item>
+      
+      <item>
+        <title>git</title>
+        <link>http://example.org/ko/en/docs/git/git/</link>
+        <pubDate>Mon, 14 Mar 2022 23:50:15 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/git/git/</guid>
+        <description>Git使用问题 Failed to connect to github.com port 443: Timed out Failed to connect to github.com port 443: Timed out - quanzhan - 博客园
+ 主要原因是使用了代理。按照代理的端口改一下下面的配置即可（假设你代理端口为1080）。
+ git config --global http.proxy http://127.0.0.1:1080 git config --global https.proxy http://127.0.0.1:1080 </description>
+      </item>
+      
+      <item>
         <title>About</title>
         <link>http://example.org/ko/en/about/</link>
         <pubDate>Sat, 12 Oct 2019 20:55:00 +0800</pubDate>
         
         <guid>http://example.org/ko/en/about/</guid>
-        <description></description>
+        <description>参考Wenhui&amp;rsquo;s Rotten Pen</description>
       </item>
       
     

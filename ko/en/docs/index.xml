@@ -15,6 +15,15 @@
     
       
       <item>
+        <title>Git</title>
+        <link>http://example.org/ko/en/docs/git/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/git/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>Linux</title>
         <link>http://example.org/ko/en/docs/linux/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>

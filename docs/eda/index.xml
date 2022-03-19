@@ -15,22 +15,37 @@
     
       
       <item>
-        <title>vcs</title>
-        <link>http://example.org/docs/eda/vcs/</link>
-        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        <title>ubuntu安装EDA</title>
+        <link>http://example.org/docs/eda/ubuntu/</link>
+        <pubDate>Mon, 14 Mar 2022 23:21:10 +0800</pubDate>
         
-        <guid>http://example.org/docs/eda/vcs/</guid>
-        <description>1 测试标题
-2 2.1 置位</description>
+        <guid>http://example.org/docs/eda/ubuntu/</guid>
+        <description>Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章：
+搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。
+搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 
+lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_baidu_34971492的博客-CSDN博客
+ 安装lsb-core
+ 1  apt-get install lsb-core   Can&amp;rsquo;t remove statfile /usr/tmp/.flexlm/lmgrdl.1999: errno No such file or directory 安装Synopsys DC的license时的问题，请高手解答！ - EDA资源使用讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -
+ 自己新建一个/usr/tmp/.flexlm
+ (lmgrd) Failed to open the TCP port number in the license. (lmgrd) Failed to open the TCP port number in the license.</description>
       </item>
       
       <item>
-        <title>verdi</title>
+        <title>verdi使用</title>
         <link>http://example.org/docs/eda/verdi/</link>
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
         <guid>http://example.org/docs/eda/verdi/</guid>
         <description></description>
+      </item>
+      
+      <item>
+        <title>vcs使用</title>
+        <link>http://example.org/docs/eda/vcs/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>http://example.org/docs/eda/vcs/</guid>
+        <description>1 2 2.1 </description>
       </item>
       
     

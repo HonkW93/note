@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on HonkW&#39;s Notes</title>
+    <link>http://example.org/ko/en/docs/linux/vim/</link>
+    <description>Recent content in vim on HonkW&#39;s Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:36:39 +0900</lastBuildDate>
+    
+        <atom:link href="http://example.org/ko/en/docs/linux/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>vim使用</title>
+        <link>http://example.org/ko/en/docs/linux/vim/gvim/</link>
+        <pubDate>Sun, 25 Jul 2021 15:29:28 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/vim/gvim/</guid>
+        <description>记录Vim相关的一些插件用法及Vim使用中的问题作为参考文档。 插件（Plugin） vim-plug  vim插件管理器
+junegunn/vim-plug: Minimalist Vim Plugin Manager
+ 一个Vim插件管理器，利用异步并行可以快速地安装、更新和卸载插件。
+  安装
+:PlugInstall
+  卸载
+:PlugClean
+  升级
+:PlugUpdate
+  列表
+:PlugStatus
+  加速源：
+VIM-Plug安装插件时，频繁更新失败，或报端口443被拒绝 - 知乎 (zhihu.com)
+Just a moment&amp;hellip; (fastgit.org)
+GitHub: Where the world builds software · GitHub (gitfast.tk)
+nerdtree  树形文件管理器
+preservim/nerdtree: A tree explorer plugin for vim.
+   呼出
+:NERDTree
+  vim-visual-star-search  可视模式下通过*搜索
+nelstrom/vim-visual-star-search: Start a * or # search from a visual block (github.</description>
+      </item>
+      
+      <item>
+        <title>learn-vimscript-the-hard-way</title>
+        <link>http://example.org/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</link>
+        <pubDate>Sat, 19 Mar 2022 18:05:44 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>
