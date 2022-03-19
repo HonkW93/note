@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vim on HonkW&#39;s Learning Notes</title>
-    <link>http://example.org/docs/linux/vim/</link>
+    <link>https://honkw-note.vercel.app/docs/linux/vim/</link>
     <description>Recent content in vim on HonkW&#39;s Learning Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 28 Jan 2020 00:36:39 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/docs/linux/vim/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://honkw-note.vercel.app/docs/linux/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>vim使用</title>
-        <link>http://example.org/docs/linux/vim/gvim/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/vim/gvim/</link>
         <pubDate>Sun, 25 Jul 2021 15:29:28 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/vim/gvim/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/vim/gvim/</guid>
         <description>记录Vim相关的一些插件用法及Vim使用中的问题作为参考文档。 插件（Plugin） vim-plug  vim插件管理器
 junegunn/vim-plug: Minimalist Vim Plugin Manager
  一个Vim插件管理器，利用异步并行可以快速地安装、更新和卸载插件。
@@ -45,10 +45,10 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
       
       <item>
         <title>learn-vimscript-the-hard-way</title>
-        <link>http://example.org/docs/linux/vim/learn-vimscript-the-hard-way/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/vim/learn-vimscript-the-hard-way/</link>
         <pubDate>Sat, 19 Mar 2022 18:05:44 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
         <description></description>
       </item>
       

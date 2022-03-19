@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HonkW&#39;s Learning Notes</title>
-    <link>http://example.org/</link>
+    <link>https://honkw-note.vercel.app/</link>
     <description>Recent content on HonkW&#39;s Learning Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://honkw-note.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>bash</title>
-        <link>http://example.org/docs/linux/bash/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/bash/</link>
         <pubDate>Sat, 19 Mar 2022 19:33:02 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/bash/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/bash/</guid>
         <description></description>
       </item>
       
       <item>
         <title>ubuntu安装EDA</title>
-        <link>http://example.org/docs/eda/ubuntu/</link>
+        <link>https://honkw-note.vercel.app/docs/eda/ubuntu/</link>
         <pubDate>Mon, 14 Mar 2022 23:21:10 +0800</pubDate>
         
-        <guid>http://example.org/docs/eda/ubuntu/</guid>
+        <guid>https://honkw-note.vercel.app/docs/eda/ubuntu/</guid>
         <description>Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章：
 搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。
 搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 
@@ -41,10 +41,10 @@ lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_bai
       
       <item>
         <title>vim使用</title>
-        <link>http://example.org/docs/linux/vim/gvim/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/vim/gvim/</link>
         <pubDate>Sun, 25 Jul 2021 15:29:28 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/vim/gvim/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/vim/gvim/</guid>
         <description>记录Vim相关的一些插件用法及Vim使用中的问题作为参考文档。 插件（Plugin） vim-plug  vim插件管理器
 junegunn/vim-plug: Minimalist Vim Plugin Manager
  一个Vim插件管理器，利用异步并行可以快速地安装、更新和卸载插件。
@@ -70,55 +70,55 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
       
       <item>
         <title>learn-vimscript-the-hard-way</title>
-        <link>http://example.org/docs/linux/vim/learn-vimscript-the-hard-way/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/vim/learn-vimscript-the-hard-way/</link>
         <pubDate>Sat, 19 Mar 2022 18:05:44 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
         <description></description>
       </item>
       
       <item>
         <title>regex</title>
-        <link>http://example.org/docs/linux/regex/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/regex/</link>
         <pubDate>Mon, 14 Mar 2022 23:56:00 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/regex/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/regex/</guid>
         <description></description>
       </item>
       
       <item>
         <title>verdi使用</title>
-        <link>http://example.org/docs/eda/verdi/</link>
+        <link>https://honkw-note.vercel.app/docs/eda/verdi/</link>
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
-        <guid>http://example.org/docs/eda/verdi/</guid>
+        <guid>https://honkw-note.vercel.app/docs/eda/verdi/</guid>
         <description></description>
       </item>
       
       <item>
         <title>sed</title>
-        <link>http://example.org/docs/linux/sed/</link>
+        <link>https://honkw-note.vercel.app/docs/linux/sed/</link>
         <pubDate>Mon, 14 Mar 2022 23:45:55 +0800</pubDate>
         
-        <guid>http://example.org/docs/linux/sed/</guid>
+        <guid>https://honkw-note.vercel.app/docs/linux/sed/</guid>
         <description></description>
       </item>
       
       <item>
         <title>vcs使用</title>
-        <link>http://example.org/docs/eda/vcs/</link>
+        <link>https://honkw-note.vercel.app/docs/eda/vcs/</link>
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
-        <guid>http://example.org/docs/eda/vcs/</guid>
+        <guid>https://honkw-note.vercel.app/docs/eda/vcs/</guid>
         <description>1 2 2.1 </description>
       </item>
       
       <item>
         <title>git</title>
-        <link>http://example.org/docs/git/git/</link>
+        <link>https://honkw-note.vercel.app/docs/git/git/</link>
         <pubDate>Mon, 14 Mar 2022 23:50:15 +0800</pubDate>
         
-        <guid>http://example.org/docs/git/git/</guid>
+        <guid>https://honkw-note.vercel.app/docs/git/git/</guid>
         <description>Git使用问题 Failed to connect to github.com port 443: Timed out Failed to connect to github.com port 443: Timed out - quanzhan - 博客园
  主要原因是使用了代理。按照代理的端口改一下下面的配置即可（假设你代理端口为1080）。
  git config --global http.proxy http://127.0.0.1:1080 git config --global https.proxy http://127.0.0.1:1080 </description>
@@ -126,10 +126,10 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
       
       <item>
         <title>About</title>
-        <link>http://example.org/about/</link>
+        <link>https://honkw-note.vercel.app/about/</link>
         <pubDate>Sat, 12 Oct 2019 20:55:00 +0800</pubDate>
         
-        <guid>http://example.org/about/</guid>
+        <guid>https://honkw-note.vercel.app/about/</guid>
         <description>参考Wenhui&amp;rsquo;s Rotten Pen</description>
       </item>
       
