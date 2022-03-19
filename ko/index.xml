@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HonkW&#39;s Notes</title>
+    <link>http://example.org/ko/</link>
+    <description>Recent content on HonkW&#39;s Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 14 Mar 2022 22:44:53 +0800</lastBuildDate>
+    
+        <atom:link href="http://example.org/ko/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>vcs</title>
+        <link>http://example.org/ko/en/docs/eda/vcs/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/eda/vcs/</guid>
+        <description>1 测试标题
+2 2.1 置位</description>
+      </item>
+      
+      <item>
+        <title>verdi</title>
+        <link>http://example.org/ko/en/docs/eda/verdi/</link>
+        <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
+        
+        <guid>http://example.org/ko/en/docs/eda/verdi/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>About</title>
+        <link>http://example.org/ko/en/about/</link>
+        <pubDate>Sat, 12 Oct 2019 20:55:00 +0800</pubDate>
+        
+        <guid>http://example.org/ko/en/about/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

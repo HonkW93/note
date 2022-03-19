@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/docs/eda/vcs/</loc>
+    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/docs/linux/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/docs/eda/</loc>
+    <lastmod>2022-03-14T22:44:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/docs/eda/verdi/</loc>
+    <lastmod>2020-01-30T00:38:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/docs/verification/</loc>
+    <lastmod>2020-01-28T00:34:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-01-26T04:15:05+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/docs/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-03-07T15:24:59+08:00</lastmod>
+  </url>
+  
+</urlset>
