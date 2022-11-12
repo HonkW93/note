@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ubuntu安装EDA – HonkW&#39;s Notes</title>
+    <title>ubuntu20.04安装EDA – HonkW&#39;s Notes</title>
     
 
 
@@ -1079,7 +1079,7 @@
 
 
 <meta property="og:site_name" content="HonkW&#39;s Notes">
-<meta property="og:title" content="ubuntu安装EDA">
+<meta property="og:title" content="ubuntu20.04安装EDA">
 <meta property="og:url" content="https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/">
 <meta property="og:type" content="article">
 
@@ -1110,11 +1110,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "ubuntu安装EDA",
+    "headline": "ubuntu20.04安装EDA",
     "datePublished": "2022-03-14T23:21:10+08:00",
     "dateModified": "2022-03-14T23:21:10+08:00",
     "url" : "https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/",
-    "description": "Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章： 搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。 搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建  lmgrd: No such file or directory lmgrd遇 …",
+    "description": "记录Ubuntu安装EDA环境遇到的问题\r Ubuntu安装EDA环境 主要参考以下文章： 搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。 搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建  lmgrd: No such file or directory …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://honkw-note.vercel.app"
@@ -1135,7 +1135,7 @@
 <body id="root" class="theme__light">
     <script>
         var rootElem = document.getElementById('root');
-        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
+        var themeOptions = JSON.parse("[\"light\",\"dark\",\"hacker\"]");
         var localTheme = localStorage.getItem('theme');
 
         if (localTheme) {
@@ -1163,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      ubuntu安装EDA
+      ubuntu20.04安装EDA
     
   </h6>
   <ul>
@@ -1515,7 +1515,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">ubuntu安装EDA</h2>
+        <h2 class="title">ubuntu20.04安装EDA</h2>
       </div>
     </div>
   </div>
@@ -1567,7 +1567,7 @@
   
   <li  class="is-active" >
     
-      <span>ubuntu安装EDA</span>
+      <span>ubuntu20.04安装EDA</span>
     
   </li>
   
@@ -1609,7 +1609,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      ubuntu安装EDA
+      ubuntu20.04安装EDA
     
   </h6>
   <ul>
@@ -1673,8 +1673,11 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="ubuntu安装eda环境">Ubuntu安装EDA环境</h2>
-<p>记录安装遇到的问题。主要参考以下文章：</p>
+    <div class="notices info" data-title="简介">
+  记录Ubuntu安装EDA环境遇到的问题
+</div>
+<h2 id="ubuntu安装eda环境">Ubuntu安装EDA环境</h2>
+<p>主要参考以下文章：</p>
 <p><a href="https://mp.weixin.qq.com/s/3sCj14QtAULZ1cL-TEZJDA" target="_blank">搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7</a>及其后面几篇。</p>
 <p><a href="https://mp.weixin.qq.com/s/uRTRt8-lM459dDI9vofeXQ" target="_blank">搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 </a></p>
 <h3 id="lmgrd-no-such-file-or-directory">lmgrd: No such file or directory</h3>
@@ -1710,21 +1713,6 @@
 </span></span><span class="line"><span class="cl">lmgrd -c <span class="o">[</span>license地址<span class="o">]</span> <span class="c1">#e.g. /home/admin/eda/synopsys/license/synopsys.dat</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="vcs-binsh-illegal-option--h-或者-verdi-syntax-error--unexpected">(vcs) /bin/sh illegal option -h 或者 (verdi) Syntax error: &ldquo;(&rdquo; unexpected</h3>
-<p><a href="https://python.iitter.com/other/196990.html" target="_blank">Python成神之路 - VCS-Verdi ubuntu 安装 (iitter.com)</a></p>
-<blockquote>
-<p>ubuntu的<code>sh</code>指向<code>dash</code>，删了直接链接到<code>bash</code></p>
-</blockquote>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo rm -f /bin/sh
-</span></span><span class="line"><span class="cl">sudo ln -s /bin/bash /bin/sh
-</span></span></code></pre></td></tr></table>
-</div>
 </div><h3 id="cant-install-o-201809-sp2-release-of-vcs-mxsha256-sum-mismatch-for-file">Can&rsquo;t Install O-2018.09-SP2 release of vcs-mx:SHA256 sum mismatch for file</h3>
 <p><a href="https://bbs.eetop.cn/thread-879632-1-1.html" target="_blank">Sentaurus 安装求助 （SHA256 sum mismatch） - EDA资源使用讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -</a></p>
 <blockquote>
@@ -1748,23 +1736,44 @@ sudo rm lock*
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">lmgrd -c <span class="o">[</span>license地址<span class="o">]</span> -l <span class="o">[</span>log地址<span class="o">]</span> <span class="c1">#e.g. /home/admin/eda/synopsys/license/lic.log</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="ubuntu开机启动">Ubuntu开机启动</h3>
+</div><h3 id="ubuntu开机启动lmgrd">Ubuntu开机启动lmgrd</h3>
 <p><a href="https://mp.weixin.qq.com/s/vlzbEmTm753TXM3xsrlnlQ" target="_blank">搭建属于自己的数字IC EDA环境（六）：开机自动激活 Synopsys license</a></p>
 <p><a href="https://oldtang.com/2463.html" target="_blank">Ubuntu 18.04 LTS 配置 rc.local 开机自动启动脚本-老唐笔记 (oldtang.com)</a></p>
+<p><a href="https://www.jianshu.com/p/79d24b4af4e5" target="_blank">ubuntu-18.04 设置开机启动脚本 - 简书 (jianshu.com)</a></p>
 <p><a href="https://www.1024sou.com/article/10034.html" target="_blank">ubuntu 20.04通过systemd方式增加开机启动 - 1024搜-程序员专属的搜索引擎 (1024sou.com)</a></p>
 <blockquote>
-<p>按照第一个链接弄一下就好了。</p>
+<p>按照第一个链接写脚本，按照第二个链接弄启动位置的<code>rc.local</code>，按照第三个链接启动<code>rc-local.service</code>就好了。</p>
 <p>如果不对，去<code>lmgrd</code>添加<code>-l</code>，开机查看一下<code>log</code>的具体问题</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl start rc-local.service <span class="c1">#启动</span>
+</span></span><span class="line"><span class="cl">sudo systemctl status rc-local.service <span class="c1">#查看状态</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="ubuntu桌面改为desktop">Ubuntu桌面改为Desktop</h3>
+<p><a href="https://www.796t.com/content/1546894982.html" target="_blank">ubuntu修改系統/資料夾語言（中文/英文互轉） - 程式人生 (796t.com)</a></p>
+<blockquote>
+<p>将系统语言改两次，第一次<code>Update Names</code>，第二次<code>Keep Old Names</code>，就可以中文系统下面保持<code>Desktop</code>了</p>
+</blockquote>
+<h3 id="failed-to-load-module-canberra-gtk-module">Failed to load module canberra-gtk-module</h3>
+<p><a href="https://blog.csdn.net/qq_19707521/article/details/108201108" target="_blank">解决 Failed to load module canberra-gtk-module__yuki_的博客-CSDN博客_canberra-gtk-module</a></p>
+<blockquote>
+<p><code>18.04</code>的<code>gvim</code>打开有这个问题，安装一下</p>
 </blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl status xx.service 查看状态
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install libcanberra-gtk-module
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="其他">其他</h3>
+</div><h3 id="其他参考">其他参考</h3>
 <p><a href="https://blog.csdn.net/qq_43132308/article/details/113602789" target="_blank">WSL Ubuntu16.04安装GUI +VCS+Verdi 个人踩坑记录+填坑答疑_努力的卑微小陈的博客-CSDN博客</a></p>
 <p><a href="https://www.daimajiaoliu.com/daima/479459931100402" target="_blank">从零开始VCS+Verdi 安装过程 (daimajiaoliu.com)</a></p>
 <p><a href="https://hifpga.com/%e9%97%ae%e9%a2%98/36672/ubuntu-18041604-%e5%ae%89%e8%a3%85%e7%a0%b4%e8%a7%a3-vcs-20162018-%e5%92%8c-verdi-20162018%e4%bb%a5%e5%8f%8a%e5%92%8cvivado%e8%81%94%e5%90%88%e4%bb%bf%e7%9c%9f/" target="_blank">Ubuntu 18.04/16.04 安装破解 VCS 2016/2018 和 Verdi 2016/2018，以及和vivado联合仿真 Ubuntu,VCS,Verdi - 最大最专业的FPGA论坛 (hifpga.com)</a></p>
@@ -1775,6 +1784,13 @@ sudo rm lock*
 <div class="grow"></div>
 <nav class="pagination-single">
   
+    
+      <a href="https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/" title="ubuntu22.04/18.04使用VCS" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__right-title">ubuntu22.04/18.04使用VCS</div>
+      </a>
     
     <div class="grow"></div>
     
@@ -1804,11 +1820,12 @@ sudo rm lock*
         <li><a href="#lmgrd-no-such-file-or-directory">lmgrd: No such file or directory</a></li>
         <li><a href="#cant-remove-statfile-usrtmpflexlmlmgrdl1999-errno-no-such-file-or-directory">Can&rsquo;t remove statfile /usr/tmp/.flexlm/lmgrdl.1999: errno No such file or directory</a></li>
         <li><a href="#lmgrd-failed-to-open-the-tcp-port-number-in-the-license">(lmgrd) Failed to open the TCP port number in the license.</a></li>
-        <li><a href="#vcs-binsh-illegal-option--h-或者-verdi-syntax-error--unexpected">(vcs) /bin/sh illegal option -h 或者 (verdi) Syntax error: &ldquo;(&rdquo; unexpected</a></li>
         <li><a href="#cant-install-o-201809-sp2-release-of-vcs-mxsha256-sum-mismatch-for-file">Can&rsquo;t Install O-2018.09-SP2 release of vcs-mx:SHA256 sum mismatch for file</a></li>
         <li><a href="#lmgrd-please-kill-and-run-lmreread">(lmgrd) Please kill, and run lmreread</a></li>
-        <li><a href="#ubuntu开机启动">Ubuntu开机启动</a></li>
-        <li><a href="#其他">其他</a></li>
+        <li><a href="#ubuntu开机启动lmgrd">Ubuntu开机启动lmgrd</a></li>
+        <li><a href="#ubuntu桌面改为desktop">Ubuntu桌面改为Desktop</a></li>
+        <li><a href="#failed-to-load-module-canberra-gtk-module">Failed to load module canberra-gtk-module</a></li>
+        <li><a href="#其他参考">其他参考</a></li>
       </ul>
     </li>
   </ul>

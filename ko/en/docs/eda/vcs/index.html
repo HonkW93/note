@@ -1135,7 +1135,7 @@
 <body id="root" class="theme__light">
     <script>
         var rootElem = document.getElementById('root');
-        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
+        var themeOptions = JSON.parse("[\"light\",\"dark\",\"hacker\"]");
         var localTheme = localStorage.getItem('theme');
 
         if (localTheme) {
@@ -1673,10 +1673,7 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="1">1</h2>
-<h2 id="2">2</h2>
-<h3 id="21">2.1</h3>
-
+    
   </article>
 </div>
       
@@ -1705,16 +1702,7 @@
         <div class="toc">
   <h6 class="toc__label">목차</h6>
   <div class="toc__body">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#1">1</a></li>
-    <li><a href="#2">2</a>
-      <ul>
-        <li><a href="#21">2.1</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
       

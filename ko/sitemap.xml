@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/bash/</loc>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/</loc>
+    <lastmod>2022-11-04T00:09:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/bash/bash/</loc>
     <lastmod>2022-03-19T19:33:02+08:00</lastmod>
   </url>
   
@@ -18,18 +23,33 @@
   </url>
   
   <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/bash/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://honkw-note.vercel.app/ko/en/docs/git/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/</loc>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://honkw-note.vercel.app/ko/en/docs/linux/vim/</loc>
     <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/questasim/questasim/</loc>
+    <lastmod>2022-09-05T22:33:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/wekk2/</loc>
+    <lastmod>2022-07-06T23:29:27+08:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +63,18 @@
   </url>
   
   <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/bash/sed/</loc>
+    <lastmod>2022-03-14T23:45:55+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://honkw-note.vercel.app/ko/en/docs/eda/</loc>
     <lastmod>2022-03-14T22:44:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week3/</loc>
+    <lastmod>2022-07-12T23:30:41+08:00</lastmod>
   </url>
   
   <url>
@@ -53,8 +83,13 @@
   </url>
   
   <url>
-    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/sed/</loc>
-    <lastmod>2022-03-14T23:45:55+08:00</lastmod>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/linux/</loc>
+    <lastmod>2020-01-28T00:36:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week4/</loc>
+    <lastmod>2022-07-13T00:00:52+08:00</lastmod>
   </url>
   
   <url>
@@ -68,8 +103,48 @@
   </url>
   
   <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week5/</loc>
+    <lastmod>2022-07-07T23:11:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week6/</loc>
+    <lastmod>2022-07-13T00:26:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week7/</loc>
+    <lastmod>2022-07-13T23:01:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week8/</loc>
+    <lastmod>2022-07-14T22:20:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9_5/</loc>
+    <lastmod>2022-07-21T22:59:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9/</loc>
+    <lastmod>2022-07-21T22:13:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week10/</loc>
+    <lastmod>2022-07-21T23:17:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honkw-note.vercel.app/ko/en/docs/verification/sv/lab3/</loc>
+    <lastmod>2022-07-28T20:44:31+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://honkw-note.vercel.app/ko/</loc>
-    <lastmod>2022-03-19T19:33:02+08:00</lastmod>
+    <lastmod>2022-11-04T00:09:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

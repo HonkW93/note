@@ -14,6 +14,25 @@
     
     
       
+      <item>
+        <title>v0-sv</title>
+        <link>https://honkw-note.vercel.app/docs/verification/sv/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/docs/verification/sv/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>questasim</title>
+        <link>https://honkw-note.vercel.app/docs/verification/questasim/questasim/</link>
+        <pubDate>Mon, 05 Sep 2022 22:33:15 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/docs/verification/questasim/questasim/</guid>
+        <description>modelsim/questasim 使用技巧。 Δcycle 仿真运行的最小单位是Δcycle。
+ 默认情况下，时钟对于组合电路的驱动会添加一个无限最小时间 (delta-cycle)的延迟，而该延迟无法用绝对时间单位衡量， 它要比最小时间单位精度还小。 在一个时间片(time-slot)中可以发生很多事情，例如在仿真器中敲入命令run 0，即是让仿真器运行一个 (delta-cycle)的时间。  modelsim使用工具栏的&amp;rsquo;&amp;rsquo;expanded time deltas mode&amp;quot;, 选中&amp;rsquo;&amp;rsquo;expanded time at active cursor&amp;quot;查看Δcycle</description>
+      </item>
+      
     
   </channel>
 </rss>

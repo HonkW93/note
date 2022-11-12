@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 19 Mar 2022 19:33:02 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Nov 2022 00:09:53 +0800</lastBuildDate>
     
         <atom:link href="https://honkw-note.vercel.app/ko/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,21 +15,38 @@
     
       
       <item>
-        <title>bash</title>
-        <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/</link>
-        <pubDate>Sat, 19 Mar 2022 19:33:02 +0800</pubDate>
+        <title>ubuntu22.04/18.04使用VCS</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/</link>
+        <pubDate>Fri, 04 Nov 2022 00:09:53 +0800</pubDate>
         
-        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/bash/</guid>
-        <description></description>
+        <guid>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/</guid>
+        <description>记录Ubuntu安装VCS踩的坑 Ubuntu安装VCS 大部分问题可以通过下面的链接解决。
+Ubuntu虚拟机中VCS安装和启动过程中遇到的问题总结_远古架构师alanwu的博客-CSDN博客_启动vcs
+数字IC设计的第一步——Synopsys EDA Tools的安装_WeelCJ的博客-CSDN博客_scl_keygen.exe
+VCS 安装在ubuntu18.04下面的问题
+/bin/sh illegal option -h 或者 (verdi) Syntax error: &amp;ldquo;(&amp;rdquo; unexpected Python成神之路 - VCS-Verdi ubuntu 安装 (iitter.com)
+ ubuntu的sh指向dash，删了直接链接到bash
+ 1 2  sudo rm -f /bin/sh sudo ln -s /bin/bash /bin/sh   /bin/csh：解释器错误：没有那个文件或目录（/bin/csh: bad interpreter: No such file or dictionary） /bin/csh：解释器错误：没有那个文件或目录（/bin/csh: bad interpreter: No such file or dictionary）ShuqiaoS的博客-CSDN博客/bin/csh: bad interpreter: no such file or directo
+ 安装csh
+ 1  sudo apt-get install csh   Makefile:109: recipe for target &amp;lsquo;product_timestamp&amp;rsquo; failed  gcc版本降级到4.</description>
       </item>
       
       <item>
-        <title>ubuntu安装EDA</title>
+        <title>bash使用</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/bash/</link>
+        <pubDate>Sat, 19 Mar 2022 19:33:02 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/bash/bash/</guid>
+        <description>记录bash部分命令。来源Linux命令行与shell脚本编程大全（第3版） </description>
+      </item>
+      
+      <item>
+        <title>ubuntu20.04安装EDA</title>
         <link>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/</link>
         <pubDate>Mon, 14 Mar 2022 23:21:10 +0800</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/</guid>
-        <description>Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章：
+        <description>记录Ubuntu安装EDA环境遇到的问题 Ubuntu安装EDA环境 主要参考以下文章：
 搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。
 搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 
 lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_baidu_34971492的博客-CSDN博客
@@ -69,12 +86,33 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
       </item>
       
       <item>
-        <title>learn-vimscript-the-hard-way</title>
+        <title>questasim</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/questasim/questasim/</link>
+        <pubDate>Mon, 05 Sep 2022 22:33:15 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/questasim/questasim/</guid>
+        <description>modelsim/questasim 使用技巧。 Δcycle 仿真运行的最小单位是Δcycle。
+ 默认情况下，时钟对于组合电路的驱动会添加一个无限最小时间 (delta-cycle)的延迟，而该延迟无法用绝对时间单位衡量， 它要比最小时间单位精度还小。 在一个时间片(time-slot)中可以发生很多事情，例如在仿真器中敲入命令run 0，即是让仿真器运行一个 (delta-cycle)的时间。  modelsim使用工具栏的&amp;rsquo;&amp;rsquo;expanded time deltas mode&amp;quot;, 选中&amp;rsquo;&amp;rsquo;expanded time at active cursor&amp;quot;查看Δcycle</description>
+      </item>
+      
+      <item>
+        <title>week2 数据类型,可综合设计</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/wekk2/</link>
+        <pubDate>Wed, 06 Jul 2022 23:29:27 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/wekk2/</guid>
+        <description>systemverilog笔记。 datatype-数据类型 普通变量-var   默认变量
+默认var logic1 2 3  var logic [63:0] addr; logic [63:0] addr; wire logic [63:0] addr;      2值/4值逻辑
+2-value vs 4-value   4-value (default x) 2-value (default 0)     integer int   logic bit   reg,wire,tri(net-type) byte,shortint,longint       有符号 vs 无符号</description>
+      </item>
+      
+      <item>
+        <title>vimscript</title>
         <link>https://honkw-note.vercel.app/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</link>
         <pubDate>Sat, 19 Mar 2022 18:05:44 +0800</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/linux/vim/learn-vimscript-the-hard-way/</guid>
-        <description></description>
+        <description>learn-vimscript-the-hard-way</description>
       </item>
       
       <item>
@@ -83,7 +121,26 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
         <pubDate>Mon, 14 Mar 2022 23:56:00 +0800</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/linux/regex/</guid>
-        <description></description>
+        <description>正则表达式</description>
+      </item>
+      
+      <item>
+        <title>sed使用</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/sed/</link>
+        <pubDate>Mon, 14 Mar 2022 23:45:55 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/bash/sed/</guid>
+        <description>流文本编辑器</description>
+      </item>
+      
+      <item>
+        <title>week3 接口</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week3/</link>
+        <pubDate>Tue, 12 Jul 2022 23:30:41 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week3/</guid>
+        <description>systemverilog笔记。 interface-接口   声明、例化、modport、索引
+declare1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25  interface main_bus; wire [15:0] data; wire [15:0] address; logic [7:0] slaveinstruction; logic slave_request; logic bus_grant; logic bus_request; logic slave_ready; logic data_ready; logic mem_read; logic mem_write; endinterface interface main_bus (input logic clock, resetN, test_mode); wire [15:0] data; wire [15:0] address; logic [7:0] slaveinstruction; logic slave_request; logic bus_grant; logic bus_request; logic slave_ready; logic data_ready; logic mem_read; logic mem_write; endinterface    inst1 2 3 4 5 6 7 8 9  main_bus bus (); // instance of an interface  main_bus bus ( // instance of an interface .</description>
       </item>
       
       <item>
@@ -96,12 +153,18 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
       </item>
       
       <item>
-        <title>sed</title>
-        <link>https://honkw-note.vercel.app/ko/en/docs/linux/sed/</link>
-        <pubDate>Mon, 14 Mar 2022 23:45:55 +0800</pubDate>
+        <title>week4 验证环境，任务&amp;函数</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week4/</link>
+        <pubDate>Wed, 13 Jul 2022 00:00:52 +0800</pubDate>
         
-        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/sed/</guid>
-        <description></description>
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week4/</guid>
+        <description>systemverilog笔记。 enviroment-验证环境   激励发生器-stimulator
+ 发起器-initiator 响应器-responder    监测器-monitor
+观察内部信号尽量少
+  比较器 -checker
+ 参考模型 - reference model(predictor) 数据比较  线上比较（online check） 线下比较（offline check）      task&amp;amp;function-任务&amp;amp;函数   task和function区别
+ function不会消耗仿真时间，而task则可能会消耗仿真时间。 function无法调用task，而task可以调用function。 一个可以返回数据的function只能返回一个单一数值，而任务或者void function不会返回数值。 task 没有 void    一个可以返回数据的function可以作为一个表达式中的操作数，而该操作数的值即function的返回值。（隐式返回）
+1 2 3  function [15:0] myfunc1(input [7:0] x,y); myfunc1 = x * y -1; //implicit return endfunction     如果调用具有返回值的函数，但是又不使用该返回值时，建议为其添加void’()进行转换。</description>
       </item>
       
       <item>
@@ -110,7 +173,130 @@ nelstrom/vim-visual-star-search: Start a * or # search from a visual block (gith
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/eda/vcs/</guid>
-        <description>1 2 2.1 </description>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>week5 数组</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week5/</link>
+        <pubDate>Thu, 07 Jul 2022 23:11:05 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week5/</guid>
+        <description>systemverilog笔记。 array-定长数组   unpacked和packed
+unpacked vs packed  verilog默认向量为组合型数组(packed)，数组为非组合型数组(unpacked)。（struct默认为非组合型(unpacked)）  1 2  wire [3:0] select;	//vector packed reg [63:0] data;   1 2  reg [15:0] RAM [0:4095]; //memory array unpacked wire [7:0] table [3:0];    sv允许组合型数组(packed)  1 2 3 4  int a1[7:0][1023:0]; int a2[1:8][1:1024]; logic [31:0] data [1024]; logic [31:0] data [0:1023];   1  logic [3:0][7:0] data; //2-D packed array       2值与4值逻辑变量占用存储的大小不同。</description>
+      </item>
+      
+      <item>
+        <title>week6 类的封装</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week6/</link>
+        <pubDate>Wed, 13 Jul 2022 00:26:29 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week6/</guid>
+        <description>systemverilog笔记。 class encapsulation-类的封装   类（class）：包含成员变量+成员方法
+  对象（object）：类在例化后的实例
+  句柄（handle）：指向对象的指针
+  原型（prototype）：程序的声明部分，包含程序名、返回类型和参数列表
+  类的成员（变量/方法）默认都是动态（automatic）生命周期，即每一个对象的变量和方法都会为其开辟新的空间。
+example1 2 3 4 5 6 7 8 9  //data in class are all dynamic by default class Packet;	//class  integer command;	//member data  function new();	//member method  command = IDLE; endfunction endclass Packet p;	//handle p = new();	//object      static-静态成员（变量/方法）   对象必须在仿真以后（initial）才能创建(new)。</description>
+      </item>
+      
+      <item>
+        <title>week7 类的继承</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week7/</link>
+        <pubDate>Wed, 13 Jul 2022 23:01:41 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week7/</guid>
+        <description>systemverilog笔记。 class inheritance - 类的继承 子类继承父类的成员变量和方法。
+子类/父类句柄调用变量/方法  子类句柄（指向子类对象）调用父类    变量
+  同名
+覆盖，父类变量在子类中可以通过super访问
+  不同名
+继承，父类、子类变量各自独立
+    方法
+  同名
+包括两类，构造函数和和其他方法：
+  构造函数new方法
+系统默认，子类会自动调用父类的new方法，因此：
+  如果父类的new没有参数，那么子类可以添加参数并覆盖。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  class Packet; integer i = 1; function new(); i = 2; endfunction endclass class LinkedPacket extends Packet; integer i = 3; integer k = 5; function new(int val); super.</description>
+      </item>
+      
+      <item>
+        <title>week8 随机约束</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week8/</link>
+        <pubDate>Thu, 14 Jul 2022 22:20:20 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week8/</guid>
+        <description>randomize-随机化 简单的随机数   verilog中可以通过系统函数$random()%n,$urandom()%n,urandom_range(MAX,MIN)产生
+  系统函数std::randomize()
+结构体随机化（内部必须声明rand），不能使用.randomize。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  typedef struct { rand bit [31:0] src; rand bit [31:0] dst; rand bit [31:0] data[4]; rand bit [ 7:0] kind; } packet_t; module tb2; packet_t pkt; initial begin $display(&amp;#34;before randomized packet src is %0d\ndst is %0d\nkind is %0d\ndata is %p&amp;#34;,pkt.src,pkt.dst,pkt.kind,pkt.data); std:randomize(pkt) with { pkt.src&amp;gt;10; pkt.src&amp;lt;15; }; $display(&amp;#34;after randomized packet src is %0d\ndst is %0d\nkind is %0d\ndata is %p&amp;#34;,pkt.</description>
+      </item>
+      
+      <item>
+        <title>week9.5 类的多态</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9_5/</link>
+        <pubDate>Thu, 21 Jul 2022 22:59:25 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9_5/</guid>
+        <description>虚方法  只有虚方法，没有虚函数 虚方法允许父类句柄（指向子类对象）动态调用子类方法 变量命名最好不同，函数命名可以相同（且经常相同），因为有虚方法  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38  class BasePacket; int A = 1; int B = 2; function void printA; $display(&amp;#34;BasePacket::A is %d&amp;#34;, A); endfunction : printA virtual function void printB; $display(&amp;#34;BasePacket::B is %d&amp;#34;, B); endfunction : printB endclass : BasePacket class My_Packet extends BasePacket; int A = 3; int B = 4; function void printA; $display(&amp;#34;My_Packet::A is %d&amp;#34;, A); endfunction: printA virtual function void printB; $display(&amp;#34;My_Packet::B is %d&amp;#34;, B); endfunction : printB endclass : My_Packet module tb; BasePacket P1 = new(); My_Packet P2 = new(); initial begin P1.</description>
+      </item>
+      
+      <item>
+        <title>week9 线程同步与通信</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9/</link>
+        <pubDate>Thu, 21 Jul 2022 22:13:12 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week9/</guid>
+        <description>thread-线程 begin/end &amp;amp; fork/join
+开辟并行线程的方法只有fork/join
+fork join  fork join fork join_any fork join_none  线程执行流程如下图：
+注意使用wait fork以及disable fork关闭fork join的线程，避免线程常驻后台。
+wait fork等待的是当前begin/end中所有fork/join的线程，并不是最靠近wait fork的线程。
+disable fork关闭的是当前begin/end中所有fork/join的线程，并不是最靠近disable fork的线程。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58  `timescale 1ns/1ps module tb; task automatic exec(int id, int t); $display(&amp;#34;@%t exec[%0d] entered&amp;#34;,$time, id); #(t*1ns); $display(&amp;#34;@%t exec[%0d] exited&amp;#34;,$time, id); endtask initial begin exec(1,10); end initial begin exec(2,20); end initial begin exec(3,30); end initial begin exec(4,40); end initial begin exec(5,50); end endmodule module tb2; task automatic exec(int id, int t); $display(&amp;#34;@%t exec[%0d] entered&amp;#34;,$time, id); #(t*1ns); $display(&amp;#34;@%t exec[%0d] exited&amp;#34;,$time, id); endtask initial begin $display(&amp;#34;@%t fork-join_any entered&amp;#34;,$time); fork exec(1,10); exec(2,60); join_any $display(&amp;#34;@%t fork-join_any exited&amp;#34;,$time); $display(&amp;#34;@%t fork-join_none entered&amp;#34;,$time); fork exec(3,30); exec(4,40); join_none $display(&amp;#34;@%t fork-join_none exited&amp;#34;,$time); wait fork; //wait for all fork  //disable fork;  $display(&amp;#34;@%t ini_proc exited&amp;#34;,$time); end initial begin #200ns; end endmodule   time control-时序控制 时序控制放到task中完成</description>
+      </item>
+      
+      <item>
+        <title>week10 覆盖率</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week10/</link>
+        <pubDate>Thu, 21 Jul 2022 23:17:07 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/week10/</guid>
+        <description>coverage - 覆盖率 code coverage - 代码覆盖率(隐性覆盖率) 仿真工具自动收集。
+  是否需要关心testbench的代码覆盖率？
+一般情况下，不需要。可能在IP验证中需要针对主要的验证代码进行代码覆盖率的验证。
+  toggle coverage - 翻转覆盖率
+  statement/line coverage - 行覆盖率
+  branch coverage - 分支覆盖率
+ if (a==1 || b==0)只判断 if为0或者1是否覆盖    condition/expression coverage - 条件/表达式覆盖率()
+ if (a==1 || b==0)判断 a和b的所有情况是否覆盖，比分支覆盖率要求更高    fsm coverage - 状态机覆盖率
+  vlog -cover bst &amp;ndash;&amp;gt; ucdb文件 &amp;mdash;&amp;gt; 看coverage报告
+function coverage - 功能覆盖率(显性覆盖率) covergroup- 覆盖组 一个类可以声明多个covergroup,一个covergroup可以定义多个coverpoint，可以包含以下内容：</description>
+      </item>
+      
+      <item>
+        <title>Lab3</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/verification/sv/lab3/</link>
+        <pubDate>Thu, 28 Jul 2022 20:44:31 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/verification/sv/lab3/</guid>
+        <description>代码debug问题   此代码有一项检查肯定没做，就是recv应当检测valid拉低前一个时钟周期为高，否则不符合时序。此代码均略过了这一个周期。
+  do while 循环的结构比较怪异
+参考[SV]do while循环使用案例总结_元直数字电路验证的博客-CSDN博客_sv while
+1 2 3  do begin ... end while(condition);     for循环可以直接跳过不需要的cycle，只要有valid信号判断在
+  if/else长了一定要写begin/end，或者缩进，不然逻辑关系看不清
+  注意return(0);的写法
+  $sformatf用法
+参考：UVM之sformat - liheng369 - 博客园
+  实验课堂问题   为什么packet的payload是按8bit进行的？假如连续发送的不是按byte，比如输入激励为发12bit * 2 的方式，能否正常接收？
+  为了方便操作？这个确实没明白
+  可以，根据测试，按任意多位的bit应该都是可以的
+    使用fork..join的任务send()和recv()为什么一定会退出？
+对于send()，其操作按clocking block的@rtr_io.cb操作，因此发送的周期保证有限，一定会退出。
+对于recv()
+  其操作虽然有等待 @(negedge rtr_io.cb.frameo_n[da])，但外置了watchdog，有超时机制;
+  后面的操作虽然有forever，但是在for循环内到最后一个bit会return退出任务，因此forever不会一直执行。当然这里有个前提是rtr_io.</description>
       </item>
       
       <item>

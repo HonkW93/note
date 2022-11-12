@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on HonkW&#39;s Notes</title>
+    <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/</link>
+    <description>Recent content in bash on HonkW&#39;s Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:36:39 +0900</lastBuildDate>
+    
+        <atom:link href="https://honkw-note.vercel.app/ko/en/docs/linux/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>bash使用</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/bash/</link>
+        <pubDate>Sat, 19 Mar 2022 19:33:02 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/bash/bash/</guid>
+        <description>记录bash部分命令。来源Linux命令行与shell脚本编程大全（第3版） </description>
+      </item>
+      
+      <item>
+        <title>sed使用</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/linux/bash/sed/</link>
+        <pubDate>Mon, 14 Mar 2022 23:45:55 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/linux/bash/sed/</guid>
+        <description>流文本编辑器</description>
+      </item>
+      
+    
+  </channel>
+</rss>

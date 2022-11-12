@@ -15,12 +15,29 @@
     
       
       <item>
-        <title>ubuntu安装EDA</title>
+        <title>ubuntu22.04/18.04使用VCS</title>
+        <link>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/</link>
+        <pubDate>Fri, 04 Nov 2022 00:09:53 +0800</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu_vcs/</guid>
+        <description>记录Ubuntu安装VCS踩的坑 Ubuntu安装VCS 大部分问题可以通过下面的链接解决。
+Ubuntu虚拟机中VCS安装和启动过程中遇到的问题总结_远古架构师alanwu的博客-CSDN博客_启动vcs
+数字IC设计的第一步——Synopsys EDA Tools的安装_WeelCJ的博客-CSDN博客_scl_keygen.exe
+VCS 安装在ubuntu18.04下面的问题
+/bin/sh illegal option -h 或者 (verdi) Syntax error: &amp;ldquo;(&amp;rdquo; unexpected Python成神之路 - VCS-Verdi ubuntu 安装 (iitter.com)
+ ubuntu的sh指向dash，删了直接链接到bash
+ 1 2  sudo rm -f /bin/sh sudo ln -s /bin/bash /bin/sh   /bin/csh：解释器错误：没有那个文件或目录（/bin/csh: bad interpreter: No such file or dictionary） /bin/csh：解释器错误：没有那个文件或目录（/bin/csh: bad interpreter: No such file or dictionary）ShuqiaoS的博客-CSDN博客/bin/csh: bad interpreter: no such file or directo
+ 安装csh
+ 1  sudo apt-get install csh   Makefile:109: recipe for target &amp;lsquo;product_timestamp&amp;rsquo; failed  gcc版本降级到4.</description>
+      </item>
+      
+      <item>
+        <title>ubuntu20.04安装EDA</title>
         <link>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/</link>
         <pubDate>Mon, 14 Mar 2022 23:21:10 +0800</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/eda/ubuntu/</guid>
-        <description>Ubuntu安装EDA环境 记录安装遇到的问题。主要参考以下文章：
+        <description>记录Ubuntu安装EDA环境遇到的问题 Ubuntu安装EDA环境 主要参考以下文章：
 搭建属于自己的数字IC EDA环境（一）：安装VMware15.5和centos7及其后面几篇。
 搭建属于自己的数字IC EDA环境（七）：Ubuntu下ASIC/FPGA环境搭建 
 lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_baidu_34971492的博客-CSDN博客
@@ -45,7 +62,7 @@ lmgrd: No such file or directory lmgrd遇到lmgrd: No such file or directory_bai
         <pubDate>Thu, 30 Jan 2020 00:38:25 +0900</pubDate>
         
         <guid>https://honkw-note.vercel.app/ko/en/docs/eda/vcs/</guid>
-        <description>1 2 2.1 </description>
+        <description></description>
       </item>
       
     

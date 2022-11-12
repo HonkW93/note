@@ -24,20 +24,20 @@
       </item>
       
       <item>
-        <title>Linux</title>
-        <link>https://honkw-note.vercel.app/docs/linux/</link>
-        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
-        
-        <guid>https://honkw-note.vercel.app/docs/linux/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>EDA</title>
         <link>https://honkw-note.vercel.app/docs/eda/</link>
         <pubDate>Mon, 14 Mar 2022 22:44:53 +0800</pubDate>
         
         <guid>https://honkw-note.vercel.app/docs/eda/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Linux</title>
+        <link>https://honkw-note.vercel.app/docs/linux/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
+        
+        <guid>https://honkw-note.vercel.app/docs/linux/</guid>
         <description></description>
       </item>
       
